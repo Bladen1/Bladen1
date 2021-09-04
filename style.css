@@ -1,0 +1,400 @@
+html, body {                                    /* home page */
+    margin: 0;
+    padding: 0;                                      /* margin and padding set to 0 to give a nice clean look on the outside */
+  }
+  
+  body {
+    font-family: sans-serif;                                   /* font set to san serif */
+    font-weight: 100;                                                        /* weight set to 100 */
+  }
+  
+  .container {                                                               /* first container of the website. will contain title, heading button and navbar */
+    margin: 0 auto;
+    max-width: 100%;                                                             /* width of container set 100% */
+    padding: 0;
+    min-height: 100px;                                                               /* min heaight set to 100. most likely wont need this*/
+  }
+  
+  .header {
+    background: url(/Users/elliotbladen/Desktop/Dip_IT/ElliotBladen_T1A2/docs/heading1.jpeg) no-repeat center center;                /* the backgrount of the header is from the link inserted */
+    background-size: cover;                                                                              /* covers the whole contents*/
+    height: 400px;                                                                   /* height of the background */
+    text-align: center;                                                              /* alignment set to centre*/
+  }
+  
+  .header .container {                                                              
+    position: relative;                                                                 /* fixes the image */
+    top: 50px;                                                                           
+  }
+  
+  .header h1 {
+    color: #fff;                                                                     /* Elliot Bladen color on homepage*/
+    line-height: 100px;                                                                  /* size of text */
+    font-size: 100px;
+    font-family: sans-serif;                                                                /* style of tex*/
+    margin-top: 0;                                                                           /* text seats top of the conatiner*/
+    margin-bottom: 20px;                                                                     /* moves text up 20px from conatiner*/
+    text-transform: uppercase;                                                          /* turns text to uppercase */
+  }
+  
+  @media screen and (max-width:768px){                                   /* this command sets parametres for screen width */
+    .header h1 {
+      font-size: 80px;                                                      /* once screen is below 768px (tablet size) font shrinks to 80px */
+    }
+  }
+  
+  .header p {                                                               /* This sets parameters for the p text in the header */
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase; 
+  }
+  
+  .btn {                                                                        /* This sets parameters for the button in the header */                                                
+    color:white;                                                                    /* text color */
+    background: #000;                                                       /*  button color */
+    padding: 10px 40px;                                                        /* button size */
+    text-decoration: none;                                                      /* gets rid of the underscore of the text */
+    
+  }
+    .btn:hover, .nav ul li:hover {                                              /* makes the nav bar and button glow blue*/
+        background: #117bff;
+        cursor: pointer; 
+    
+  }
+  .nav {                                                                        /* nav bar container */
+    background: #000;                                                           /* color of nav bar */
+    height: 80px;                                                                   /* height of bar */
+    width: 100%;                                                                    /* width of bar on screen*/
+  }
+  
+  .nav ul {                                                                          /* nav text container */
+    height: 80px;                                                                       
+    list-style: none;
+    margin-left: 30px;                                                                  /* 30px right of the screen */
+    margin: 0 auto;                                                                     /* clean look */
+    padding: 0;
+  }
+  
+  .nav ul li {                                                                          /* text list conatiner */
+    display: inline-block;                                                                 /* display of text. not flex to give the tablet and mobil version a very nice look */ 
+    margin-left: 30px;
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 10px;
+
+  }
+
+  .links {                                                                                  /* links to other areas of the website */
+
+    color: white;                                                                       /* color of text */
+    list-style: none;                                                                       
+    margin-right: 30px;                                                                     
+    height: 50px;                                                                          /* height of text*/
+    line-height: 50px;                                                                      /* puts the text in the middle of the nav bar*/
+        
+  }
+
+  .links a{
+    text-decoration: none;                                                          
+    color: white;
+  }
+                                                                     
+   @media(min-width:768px){                        /* contents of the page. Once media screen width is under 768px the conatiner will display thos parameter*/
+     .container2 {
+     display:flex;
+     padding-top: 100px;
+     padding-bottom: 100px;
+        }
+    }
+   
+     .box1{                                              
+     flex:1;                     /* make the box even*/
+
+        }
+
+    .box2{                          /* make the box even*/
+    flex:1;                     
+
+        }
+
+    .box3{                          /* make the box even*/
+     flex:1;
+        }
+
+     #heading1 {                                 /* parameters of the heading text */
+      margin-left: 230px;
+      font-family: sans-serif;
+        }
+
+     #heading2 {                                 /* parameters of the heading text */
+      margin-left: 250px;
+      font-family: sans-serif;
+    
+        }
+
+    #heading3 {                                     /* parameters of the heading text */
+    margin-left: 205px;
+        }
+
+     #p1 {                                               /* parameters of the p text */
+     margin: 15px 15px;
+            }
+
+   #p2 {                                               /* parameters of the heading text */
+    margin: 15px 15px;
+ }
+
+    #p3 {
+    margin: 15px 15px;                                      /* parameters of the heading text */
+        }
+
+   #image1{                                                /* parameters of the image */
+    margin-top: 75px;                                   
+    margin-left: 210px;
+        }
+
+   #image2 {                                               /* parameters of the image */
+    margin-top: 75px;
+    margin-left: 215px;
+        }
+  #image3 {
+    margin-top: 65px;                                   /* parameters of the image */
+    margin-left: 210px;
+   }
+
+
+
+
+    
+            
+        .navlist{                                                                                                                       /* Bottom Navbar */
+            background: url(https://content.codecademy.com/projects/innovation-cloud/jumbotron_bg.jpg) no-repeat center center;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;                                   /* Conatiner display on the right */
+            }
+
+            .navlink{                                                              /* display text parametres */                                                     
+            list-style: none;
+            margin-right: 30px;
+            height: 50px;
+            line-height: 50px;
+        
+            }
+
+        .navlink a {                                                                    /* display text parametres */                                                    
+
+            text-decoration: none;
+            color: white;
+            height: 30px;
+            }
+
+    
+        .footer{                                                                                                                                /* footer parametres */
+            justify-content: flex-start;
+            background: url(https://content.codecademy.com/projects/innovation-cloud/jumbotron_bg.jpg) no-repeat center center;
+            color: white
+               
+             }
+
+                
+             
+             
+            .navlist2{                                  /* parametres for top nav bar about, blog and contact pages */  
+            width: 100%;
+            background: black;
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+                }
+
+            .navlink2{                                  /* parametres for text nav bar about, blog and contact pages */   
+            list-style: none;
+            margin-right: 30px;
+            height: 50px;
+            line-height: 50px;
+            
+                }
+    
+            .navlink2 a {                               /*  text parametres */  
+    
+            text-decoration: none;
+            color: white;
+
+                }
+
+                #home {                                    
+                    background: none;
+                    height: 100%;
+
+                }
+                .wrapper{                                   /* container for the contacts form box */  
+                    width:600px;
+                    margin: 5% auto;
+                    display: flex;
+                    padding-bottom: 400px;
+
+                }
+
+                .formarea{                                      /* parametres for the background */  
+                    display:flex;
+                    background: whitesmoke;
+                    border-radius: 5px;
+                    padding: 1.9em;
+                    background-size: auto;
+                     }
+                 .msgarea{                                          /* parametres for were you right the message*/  
+                     display: flex;
+                     flex-direction: column;
+                     order:2;
+                     
+
+                 }     
+                 
+                 .msgarea > textarea{                               /* parametres for top nav bar about*/  
+                     flex: 1;
+                     min-height: 24rem;
+                     background: transparent;
+                     color: whitesmoke;
+                     padding: 10px;
+
+                 }
+                 .detailsarea{                                          /* parametres for were to enter your name details */  
+                    flex: 1;
+                    order: 1;
+                    margin-right: 2em;
+
+
+                 }
+                 .detailsarea input{                                    /* parametres for the box details, width of the box, background color, radius of the corners */  
+                    width: 90%;
+                    margin-right: 20px;
+                    background: transparent;
+                    color: #fff;
+                    border-radius: 5px;
+
+                    }
+                .detailsarea input{
+                    padding: 1em;
+                    margin-bottom: 1em;
+               }
+
+               .detailsarea button{                                     /* parametres for the button details */  
+                   background: black;
+                   color: #fff;
+                   border: 0;
+                   padding: 15px 50px;
+                   border-radius: 5px;
+                   font-family: sans-serif;
+                   text-transform: uppercase;
+                   margin-top: 100px;
+               }
+
+               .label{                                                          
+                   color: black;
+                   text-transform: uppercase;
+                   line-height: 40px;
+                   font-family: sans-serif;
+               }
+
+
+
+                @media(min-width:768px){                                    /*container will be set to the below parametres when screen width is below 768px */ 
+                .container4 {
+                    height: 1200px;
+                    display: flex;
+                    flex-direction: row;
+                    min-height: 1000px;
+                    padding-top: 100px;
+                }
+            }
+                @media screen and (max-width:768px){                        /* When screen goes to desktop mode containers go to flex column mode*/
+                    .container5{
+                        flex-direction: column;
+                    }
+                }
+                @media(min-width:1000px){                                   /* parametres setup on the about page with tablet and mobil in mind*/
+                .content {
+                    display: flex;
+                    flex-direction: row;
+                    padding: 50px;
+                    margin: 25px 15px;
+                    margin-right: 25px;
+
+                }
+                 @media(min-width:768px){                                   /* parametres setup on the about page with tablet and mobil in mind*/
+                .article{
+                    font-size: 16.5px;
+                    flex-direction: row;
+                }
+            }
+                @media (min-width:768px) {                                      /* parametres setup on the about page with tablet and mobil in mind*/
+                .image-aboutme {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    padding-top: 10px;                                          /* below parametres set the position of the photo*/
+                    padding-bottom: 0px;
+                    padding-left: 50px; 
+                    padding-right: 0px;
+                    margin: 10px 0px;
+                 }
+
+                 .container5 {                                                     /* set up for the container on the blog page*/
+                     width: 100%;
+                     min-height: 100vh;
+                     
+                 }
+
+                 .container5 .row{                                                  
+                     width: 85%;
+                     margin:auto;
+
+                 }
+                 .container5 .row .headingsection {                                        /* create parameters for row and headings section within the container5*/
+                     width:75%;
+                     text-align: center;
+                     margin:auto;
+                    }
+
+                 .container5 .row .headingsection h1 {                                  
+                     padding-top: 30px;
+                     font-size: 42px;
+                    }  
+
+                  .container5 .row .headingsection p{
+                      margin-top: 15px;
+                      font-size: 17px;
+                      line-height: 1.5;
+                  }  
+
+                  .blog{
+                      display: flex;                                                                /* setting up flex and postion fixation of the blog container*/
+                      justify-content: center;
+                      align-items: center;
+                      margin:auto;
+                  }
+                
+                  .blog .card{
+                      flex: 1;                                                                         /* blog inserts to be even */
+                      margin: 30px 15px;
+                     }
+
+                  .blog .card h3{
+                      margin-top: 20px;
+
+                  }
+
+                  .blog .card p{
+                      margin-top: 10px;
+                      font-size: 15px;
+                    }
+
+                    @media screen and (max-width:768px){                                        /* blog page to be user friendly*/
+                        .container5{
+                            flex-direction: column;
+                        }

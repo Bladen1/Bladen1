@@ -1,0 +1,11 @@
+commit 27705d7a5cb3968c7cbf0b4e44863dc6457c6b33
+Author: Elliot Bladen <e_bladen@hotmail.com>
+Date:   Sun Aug 29 09:04:34 2021 +1000
+
+    First draft done. Comments welcome
+
+commit 69e5df455682a7c7dbc71cda28e9f30c4a28627f
+Author: Elliot Bladen <e_bladen@hotmail.com>
+Date:   Sun Aug 29 08:58:16 2021 +1000
+
+    first commit
