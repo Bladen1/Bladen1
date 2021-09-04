@@ -44,9 +44,7 @@ Please make sure you have relevant Mac OS/Windows or Linux operating system. The
 
 # 4) Contact
 
-Website URL - 
-  <br></br>
-LinkedIn Contact - 
+LinkedIn Contact - @Elliot Bladen
   <br></br>
 Twitter Handle - @ElliotBladen
   <br></br>
@@ -57,4 +55,4 @@ Instagram - @ElliotBladen
 # 5) Acknowledgements
 1) CoderAcademy
 2) Github webpage
-3)
+3) CodeAcademy
